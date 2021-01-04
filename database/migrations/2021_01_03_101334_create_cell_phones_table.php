@@ -17,6 +17,7 @@ class CreateCellPhonesTable extends Migration
             $table->id();
             $table->string('brand_name');
             $table->string('model_name');
+            $table->string('image')->nullable();
             $table->string('price');
             $table->string('ram_capacity')->nullable();
             $table->string('rom_capacity')->nullable();
